@@ -1,0 +1,31 @@
+for routing we usually use react routing package but here we use just react.. by creating different calls..
+
+here we learnt basic and advance concepts of the routing
+like the file-based routing, dynamic routing, routes group and creating ifferent layout for each groups with file and folder structure..
+
+why we use the clerk api for the authentication :-
+  1) It is more secure than the writing authentication codes using routes.
+  2) It is more efficient and easy way to do.
+  3) if you do manualy then you have first takle with security issues of google then you have to write code for that also for the UI. In the clerk you get beautiful inbuild UI.
+
+withing the componnents we focus on the jsx keep the logic and data in other files..
+
+
+usually in express expression you might having seen tha they are direclty connected to the mongodb but in next.js We have to calls it for each every action for api request we have do.
+
+unlike the traditional server based application those using expreess and monodb 
+you can connect databe to evry request or server action cause theh next js is server les module..
+
+next js is server less function they dont need to have the server for their work
+
+unlike the traditional server based application those useu=ing expreess and monodb 
+
+
+You read the data by the cleark user id cause it implements as the userid to in our data base as the primary key..
+
+Why we need them because cleark as it's own data base and it store its but the fact is we also want to store the 
+the data of user in out data base along side how many image he generate and what functinality he used in the web 
+
+so for that we use the web hooks i.e., used to trigger something in our website cleark trigger the events once user logged in 
+then the it request to payload that cleark data like user name e-mail phone number etc. then this data will send to event processing
+direclty to our data base so we can create a new user in our data base and sync that data into our database 
